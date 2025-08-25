@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 1.275rem;
+    margin-top: 0.625rem;
+}
+
+.gibbText {
+    font-size: 3rem;
+    font-family: "Circular" ,sans-serif;
+    font-weight: bold;
+    color: #222;
+}
+
+.inkLogo svg {
+    height: 5rem;
+    width: auto;
+    vertical-align: middle;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLinks {
+    display: flex;
+    margin: auto 0;
+    margin-right: 1.275rem;
+    font-family: "Circular" ,sans-serif;
+    column-gap: 45px;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navLink a {
+    display: flex;
+    align-items: center;
+    gap: 0.5125rem;
+}
+
+.navLink svg {
+    width: 2rem;
+    height: auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.helpCenterForm {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.help-center-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.help-center-form,
+.help-center-form input,
+.help-center-form textarea,
+.help-center-form select,
+.help-center-form label,
+.help-center-form button {
+  font-family: "Fira Code", "Consolas", "Courier New", monospace;
+}
+
+.help-center-form input,
+.help-center-form textarea,
+.help-center-form select {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.help-center-form input:focus,
+.help-center-form textarea:focus,
+.help-center-form select:focus {
+  border-color: #2563eb;
+}
+
+.help-center-form label {
+  font-weight: bold;
+  margin-bottom: -0.5rem;
+}
+
+.help-center-form button {
+  background: #2563eb;
+  color: white;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.help-center-form button:hover {
+  background: #1e40af;
+}
+
+#priority option[value="low"] {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+#priority option[value="medium"] {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+#priority option[value="high"] {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+#priority option[value="urgent"] {
+  background-color: #fecaca;
+  color: #7f1d1d;
+}
+
+#priority option[value="simon"] {
+  background-color: #ffa3a3;
+  color: #550909;
+}
